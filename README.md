@@ -1,15 +1,7 @@
 
 ![image](https://github.com/hanraeul/LCK-News/assets/98158546/07265021-0b13-4f84-8f08-9ed620c1411e) 
 # LCK-News
-## 목차
 
-[1. 필수 구현 기능]( #1-필수-구현-기능 )
-
-[2. 와이어 프레임]( #2-와이어-프레임 )
-
-[3. API 명세서]( #3-api-명세서 )
-
-[3. ERD]( #4-erd)
 
 ## 1. 필수 구현 기능
 - **사용자 인증 기능**
@@ -186,5 +178,6 @@
 게시물 작성 테스트 (PostServiceTest)
 ![PostServiceTest](https://github.com/JangJaehyeonn/LCK-News/assets/96277705/38535408-2c8d-4933-b1ae-e33b9c247525)
 
+테스트 결과 더 추가할 예정
 
 
