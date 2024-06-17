@@ -117,10 +117,12 @@
     - 조건
         - 로그아웃 시, 발행한 토큰은 **초기화** 합니다.
         - 로그아웃 후 초기화 된 `Refresh Token`은 재사용할 수 없고, 재로그인해야 합니다.
+
 ### 프로필 관리 기능 - 프로필 조회, 프로필 수정
 - **프로필 조회 기능**
     - **사용자 ID, 이름, 한 줄 소개, 이메일**을 볼 수 있습니다.
     - **ID(사용자 ID X), 비밀번호, 생성일자, 수정일자**와 같은 데이터는 노출하지 않습니다.
+
 
       - **프로필 수정 기능**
 
@@ -169,5 +171,16 @@
         - 기본 정렬은 **생성일자 기준으로 최신순**으로 정렬합니다.
         - 뉴스피드가 없는 경우, 아래와 같이 반환합니다.
 ---
+
+
+프로필 조회 테스트
+![profileTest](https://github.com/JangJaehyeonn/LCK-News/assets/96277705/baa766cf-7135-484a-8c85-fd220a857127)
+
+로그아웃 테스트
+![UserServiceTest](https://github.com/JangJaehyeonn/LCK-News/assets/96277705/9ce18c87-44ab-4e60-b391-bb1389551c6f)
+
+게시물 작성 테스트
+![PostServiceTest](https://github.com/JangJaehyeonn/LCK-News/assets/96277705/38535408-2c8d-4933-b1ae-e33b9c247525)
+
 
 
