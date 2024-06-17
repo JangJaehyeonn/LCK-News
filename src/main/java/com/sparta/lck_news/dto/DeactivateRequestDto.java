@@ -7,10 +7,9 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class DeactivateRequestDto {
 
-
-
-
-
-
   private String password;
+
+  public void setPassword(String currentPassword) {
+
+  }
 }
