@@ -173,17 +173,17 @@
 ---
 
 
-프로필 조회 테스트
+프로필 조회 테스트 (ProfileServiceTest)
 ![profileTest](https://github.com/JangJaehyeonn/LCK-News/assets/96277705/baa766cf-7135-484a-8c85-fd220a857127)
 
 ---
 
-로그아웃 테스트
+로그아웃 테스트 (UserServiceTest)
 ![UserServiceTest](https://github.com/JangJaehyeonn/LCK-News/assets/96277705/9ce18c87-44ab-4e60-b391-bb1389551c6f)
 
 ---
 
-게시물 작성 테스트
+게시물 작성 테스트 (PostServiceTest)
 ![PostServiceTest](https://github.com/JangJaehyeonn/LCK-News/assets/96277705/38535408-2c8d-4933-b1ae-e33b9c247525)
 
 
