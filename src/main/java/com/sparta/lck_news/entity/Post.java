@@ -2,16 +2,17 @@ package com.sparta.lck_news.entity;
 
 
 import jakarta.persistence.*;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
+
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 
 
 @Getter
 @Setter
 @Entity
 @NoArgsConstructor
+@AllArgsConstructor
 public class Post extends Timestamped{
 
     @Id
@@ -22,6 +23,10 @@ public class Post extends Timestamped{
 
     public Post(String content) {
         this.content = content;
+    }
+
+    public Post(Long id, String content, LocalDateTime createdAt, LocalDateTime updatedAt) {
+        super();
     }
 
 

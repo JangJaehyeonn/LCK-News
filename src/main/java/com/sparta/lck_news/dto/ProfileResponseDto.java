@@ -19,4 +19,11 @@ public class ProfileResponseDto {
     this.email = user.getEmail();
     this.introduction = user.getIntro();
   }
+
+  public void setUsername(String testUser) {
+  }
+
+  public void setName(String updatedName) {
+
+  }
 }
